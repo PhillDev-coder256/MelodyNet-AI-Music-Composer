@@ -35,46 +35,46 @@ This repository includes code for:
 ## Introduction
 Ever wondered how to create music with Python and Machine Learning? MelodyNet provides a practical implementation of AI-generated music by training a sequence model on MIDI files from the LoFi genre. The model learns patterns and generates new musical sequences that can be converted back into MIDI for playback.
 
-Data Preparation
+## Data Preparation
 Loading MIDI Files
 Load your MIDI files into the project directory and specify the path in the script.
 
-Processing Notes and Chords
+## Processing Notes and Chords
 Convert the MIDI files into a list of sequences of notes and chords using the music21 library.
 
-Saving and Loading Processed Data
+## Saving and Loading Processed Data
 Use pickle to save and load processed data for future runs.
 
-Model Training
+## Model Training
 Preparing Sequences
 Transform the list of notes into sequences suitable for the LSTM model.
 
-Building the LSTM Model
+## Building the LSTM Model
 Define and compile the LSTM model for music generation.
 
-Training the Model
+## Training the Model
 Train the model on the prepared sequences and save the weights.
 
-Music Generation
-Generating Notes
-Generate a sequence of notes using the trained model.
+## Music Generation
+### Generating Notes
+### Generate a sequence of notes using the trained model.
 
-Creating MIDI Files
+## Creating MIDI Files
 Convert the generated notes back into a MIDI file using music21.
 
-Evaluation and Fine-Tuning
+## Evaluation and Fine-Tuning
 Analyze the model's performance and adjust parameters as needed to improve results.
 
-Optional: Weight Analysis
+## Optional: Weight Analysis
 Evaluate predictions from different saved weights to assess model performance.
 
-Contributing
+## Contributing
 Feel free to contribute to the project by submitting pull requests or opening issues.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 Special thanks to the Holy Spirit for inspiration and guidance on generating music with machine learning.
 
 ## Setup
